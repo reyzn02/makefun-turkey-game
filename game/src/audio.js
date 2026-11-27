@@ -1,5 +1,5 @@
 // All sound is synthesized live with WebAudio — no audio files, nothing fetched.
-// Ten named effects plus a small looping farmyard tune, all built from oscillators
+// Twelve named effects plus a small looping farmyard tune, all built from oscillators
 // and filtered noise, with a mute toggle.
 export function createAudio() {
   let context = null;
