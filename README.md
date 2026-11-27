@@ -92,8 +92,11 @@ mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
   session: **0 console errors, 0 failed requests** on every run.
 - Autopilot logic tests (Node, real world + autopilot): the play scene survives
   its full 24 s on seeds 1, 2, 3, 7, 42; the caught scene ends caught at
-  27–33 s; the escaped scene reaches 2,000 m with 12/12 missions on seeds 1,
-  2, 3, 5, 7, 11, 42, 99 (scores 4,935–5,305).
+  27–33 s; the escaped scene reaches 2,000 m with 12/12 missions on 7 of 8
+  seeds 1, 2, 3, 5, 7, 11, 42, 99 (seed 42 escapes with 11/12) and scores
+  5,085–5,375.
+- Dossier: text 71,956 bytes (< 160 KiB cap); dossier.json 593,201 bytes
+  (< 1.5 MiB cap).
 
 ---
 
